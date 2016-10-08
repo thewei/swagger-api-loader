@@ -1,0 +1,29 @@
+{
+  "name": "swagger-api-loader",
+  "version": "1.0.0",
+  "description": "Convert swagger spec to JS module via swagger-js-codegen",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thewei/swagger-api-loader.git"
+  },
+  "keywords": [
+    "swagger",
+    "loader",
+    "webpack",
+    "api"
+  ],
+  "author": "thewei",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thewei/swagger-api-loader/issues"
+  },
+  "homepage": "https://github.com/thewei/swagger-api-loader#readme",
+  "dependencies": {
+    "loader-utils": "^0.2.16",
+    "swagger-js-codegen": "^1.6.9"
+  }
+}
